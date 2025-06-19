@@ -54,7 +54,7 @@ def setup_hf_environment():
         logger.info("✅ LLM API key found")
     
     # Fixed model name format for OpenRouter (remove openrouter/ prefix)
-    os.environ.setdefault("LLM_MODEL", "anthropic/claude-3-haiku-20240307")
+    os.environ.setdefault("LLM_MODEL", "anthropic/claude-3.5-sonnet")
     os.environ.setdefault("LLM_BASE_URL", "https://openrouter.ai/api/v1")
     
     # Create directories if they don't exist

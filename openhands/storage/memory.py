@@ -34,7 +34,7 @@ class InMemoryFileStore(FileStore):
                         "selected_repository": None,
                         "selected_branch": None,
                         "git_provider": None,
-                        "llm_model": "openrouter/anthropic/claude-3.5-sonnet",
+                        "llm_model": "anthropic/claude-3.5-sonnet",
                         "created_at": "2024-01-01T00:00:00Z",
                         "updated_at": "2024-01-01T00:00:00Z"
                     }
