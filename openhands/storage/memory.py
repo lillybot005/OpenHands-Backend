@@ -29,7 +29,7 @@ class InMemoryFileStore(FileStore):
                     default_metadata = {
                         "conversation_id": conversation_id,
                         "title": f"Conversation {conversation_id[:8]}",
-                        "trigger": "GUI",
+                        "trigger": "gui",
                         "user_id": None,
                         "selected_repository": None,
                         "selected_branch": None,
